@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Mobile_Handset_App_Mobile_Handset_AppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Mobile_Handset_App_Mobile_Handset_AppUITests
+@end

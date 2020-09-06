@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18527388EF324928A0515FD8 /* Pods_Mobile_Handset_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A65975ED9746B38DC0290 /* Pods_Mobile_Handset_AppTests.framework */; };
+		24946E242502B3BA00D6FE77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E232502B3BA00D6FE77 /* AppDelegate.swift */; };
+		24946E262502B3BA00D6FE77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E252502B3BA00D6FE77 /* SceneDelegate.swift */; };
+		24946E282502B3BA00D6FE77 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E272502B3BA00D6FE77 /* HomeViewController.swift */; };
+		24946E2B2502B3BA00D6FE77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24946E292502B3BA00D6FE77 /* Main.storyboard */; };
+		24946E2D2502B3BD00D6FE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24946E2C2502B3BD00D6FE77 /* Assets.xcassets */; };
+		24946E302502B3BD00D6FE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24946E2E2502B3BD00D6FE77 /* LaunchScreen.storyboard */; };
+		24946E3B2502B3BE00D6FE77 /* Mobile_Handset_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E3A2502B3BE00D6FE77 /* Mobile_Handset_AppTests.swift */; };
+		24946E462502B3BE00D6FE77 /* Mobile_Handset_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E452502B3BE00D6FE77 /* Mobile_Handset_AppUITests.swift */; };
+		24946E5A2502B4A400D6FE77 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E592502B4A400D6FE77 /* Result.swift */; };
+		24946E5D2502B4C700D6FE77 /* ErrorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E5C2502B4C700D6FE77 /* ErrorResult.swift */; };
+		24946E5F2502B54000D6FE77 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E5E2502B54000D6FE77 /* RequestHandler.swift */; };
+		24946E612503F73800D6FE77 /* MobilesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E602503F73800D6FE77 /* MobilesListViewController.swift */; };
+		24946E6325057CA900D6FE77 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E6225057CA900D6FE77 /* HomeViewModel.swift */; };
+		A627224B6D6C272CEC0F3681 /* Pods_Mobile_Handset_App_Mobile_Handset_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FCC5F35ED633FAE5E6BEEF /* Pods_Mobile_Handset_App_Mobile_Handset_AppUITests.framework */; };
+		F289B2BA88ADD99BB29C34AB /* Pods_Mobile_Handset_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CEDC46B6F42C02BA8B1EC8 /* Pods_Mobile_Handset_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24946E372502B3BE00D6FE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24946E182502B3BA00D6FE77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24946E1F2502B3BA00D6FE77;
+			remoteInfo = "Mobile Handset App";
+		};
+		24946E422502B3BE00D6FE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24946E182502B3BA00D6FE77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24946E1F2502B3BA00D6FE77;
+			remoteInfo = "Mobile Handset App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B4A65975ED9746B38DC0290 /* Pods_Mobile_Handset_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Handset_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24946E202502B3BA00D6FE77 /* Mobile Handset App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Handset App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24946E232502B3BA00D6FE77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24946E252502B3BA00D6FE77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24946E272502B3BA00D6FE77 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		24946E2A2502B3BA00D6FE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24946E2C2502B3BD00D6FE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24946E2F2502B3BD00D6FE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24946E312502B3BD00D6FE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24946E362502B3BE00D6FE77 /* Mobile Handset AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Handset AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24946E3A2502B3BE00D6FE77 /* Mobile_Handset_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_Handset_AppTests.swift; sourceTree = "<group>"; };
+		24946E3C2502B3BE00D6FE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24946E412502B3BE00D6FE77 /* Mobile Handset AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Handset AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24946E452502B3BE00D6FE77 /* Mobile_Handset_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_Handset_AppUITests.swift; sourceTree = "<group>"; };
+		24946E472502B3BE00D6FE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24946E592502B4A400D6FE77 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		24946E5C2502B4C700D6FE77 /* ErrorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResult.swift; sourceTree = "<group>"; };
+		24946E5E2502B54000D6FE77 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		24946E602503F73800D6FE77 /* MobilesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilesListViewController.swift; sourceTree = "<group>"; };
+		24946E6225057CA900D6FE77 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		30FCC5F35ED633FAE5E6BEEF /* Pods_Mobile_Handset_App_Mobile_Handset_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Handset_App_Mobile_Handset_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		311CB3E2C58A960DDE522701 /* Pods-Mobile Handset AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Handset AppTests.release.xcconfig"; path = "Target Support Files/Pods-Mobile Handset AppTests/Pods-Mobile Handset AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BB1C4E72EA0578E96A282A5 /* Pods-Mobile Handset App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Handset App.release.xcconfig"; path = "Target Support Files/Pods-Mobile Handset App/Pods-Mobile Handset App.release.xcconfig"; sourceTree = "<group>"; };
+		73CEDC46B6F42C02BA8B1EC8 /* Pods_Mobile_Handset_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Handset_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D632F499F8FC63543F4514E /* Pods-Mobile Handset AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Handset AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Mobile Handset AppTests/Pods-Mobile Handset AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A663365FFD822045CF54FA0B /* Pods-Mobile Handset App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Handset App.debug.xcconfig"; path = "Target Support Files/Pods-Mobile Handset App/Pods-Mobile Handset App.debug.xcconfig"; sourceTree = "<group>"; };
+		B26BD7AC4364974B0C7EF2E5 /* Pods-Mobile Handset App-Mobile Handset AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Handset App-Mobile Handset AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Mobile Handset App-Mobile Handset AppUITests/Pods-Mobile Handset App-Mobile Handset AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8D94B96A0D794E9E1CFFC9D /* Pods-Mobile Handset App-Mobile Handset AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Handset App-Mobile Handset AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mobile Handset App-Mobile Handset AppUITests/Pods-Mobile Handset App-Mobile Handset AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24946E1D2502B3BA00D6FE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F289B2BA88ADD99BB29C34AB /* Pods_Mobile_Handset_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24946E332502B3BE00D6FE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18527388EF324928A0515FD8 /* Pods_Mobile_Handset_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24946E3E2502B3BE00D6FE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A627224B6D6C272CEC0F3681 /* Pods_Mobile_Handset_App_Mobile_Handset_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24946E172502B3BA00D6FE77 = {
+			isa = PBXGroup;
+			children = (
+				24946E222502B3BA00D6FE77 /* Mobile Handset App */,
+				24946E392502B3BE00D6FE77 /* Mobile Handset AppTests */,
+				24946E442502B3BE00D6FE77 /* Mobile Handset AppUITests */,
+				24946E212502B3BA00D6FE77 /* Products */,
+				66C6DFB71674C6D01A442990 /* Pods */,
+				F682287BF1B8FB073DB6A060 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24946E212502B3BA00D6FE77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24946E202502B3BA00D6FE77 /* Mobile Handset App.app */,
+				24946E362502B3BE00D6FE77 /* Mobile Handset AppTests.xctest */,
+				24946E412502B3BE00D6FE77 /* Mobile Handset AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24946E222502B3BA00D6FE77 /* Mobile Handset App */ = {
+			isa = PBXGroup;
+			children = (
+				24946E532502B44D00D6FE77 /* View */,
+				24946E542502B45200D6FE77 /* ViewModel */,
+				24946E552502B45700D6FE77 /* Model */,
+				24946E562502B46700D6FE77 /* Service */,
+				24946E572502B47500D6FE77 /* Utils */,
+				24946E232502B3BA00D6FE77 /* AppDelegate.swift */,
+				24946E252502B3BA00D6FE77 /* SceneDelegate.swift */,
+				24946E292502B3BA00D6FE77 /* Main.storyboard */,
+				24946E2C2502B3BD00D6FE77 /* Assets.xcassets */,
+				24946E2E2502B3BD00D6FE77 /* LaunchScreen.storyboard */,
+				24946E312502B3BD00D6FE77 /* Info.plist */,
+			);
+			path = "Mobile Handset App";
+			sourceTree = "<group>";
+		};
+		24946E392502B3BE00D6FE77 /* Mobile Handset AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				24946E3A2502B3BE00D6FE77 /* Mobile_Handset_AppTests.swift */,
+				24946E3C2502B3BE00D6FE77 /* Info.plist */,
+			);
+			path = "Mobile Handset AppTests";
+			sourceTree = "<group>";
+		};
+		24946E442502B3BE00D6FE77 /* Mobile Handset AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24946E452502B3BE00D6FE77 /* Mobile_Handset_AppUITests.swift */,
+				24946E472502B3BE00D6FE77 /* Info.plist */,
+			);
+			path = "Mobile Handset AppUITests";
+			sourceTree = "<group>";
+		};
+		24946E532502B44D00D6FE77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24946E272502B3BA00D6FE77 /* HomeViewController.swift */,
+				24946E602503F73800D6FE77 /* MobilesListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24946E542502B45200D6FE77 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				24946E6225057CA900D6FE77 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		24946E552502B45700D6FE77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24946E562502B46700D6FE77 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				24946E5E2502B54000D6FE77 /* RequestHandler.swift */,
+				24946E582502B48B00D6FE77 /* Result */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		24946E572502B47500D6FE77 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		24946E582502B48B00D6FE77 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				24946E592502B4A400D6FE77 /* Result.swift */,
+				24946E5C2502B4C700D6FE77 /* ErrorResult.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		66C6DFB71674C6D01A442990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A663365FFD822045CF54FA0B /* Pods-Mobile Handset App.debug.xcconfig */,
+				4BB1C4E72EA0578E96A282A5 /* Pods-Mobile Handset App.release.xcconfig */,
+				B8D94B96A0D794E9E1CFFC9D /* Pods-Mobile Handset App-Mobile Handset AppUITests.debug.xcconfig */,
+				B26BD7AC4364974B0C7EF2E5 /* Pods-Mobile Handset App-Mobile Handset AppUITests.release.xcconfig */,
+				7D632F499F8FC63543F4514E /* Pods-Mobile Handset AppTests.debug.xcconfig */,
+				311CB3E2C58A960DDE522701 /* Pods-Mobile Handset AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F682287BF1B8FB073DB6A060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73CEDC46B6F42C02BA8B1EC8 /* Pods_Mobile_Handset_App.framework */,
+				30FCC5F35ED633FAE5E6BEEF /* Pods_Mobile_Handset_App_Mobile_Handset_AppUITests.framework */,
+				0B4A65975ED9746B38DC0290 /* Pods_Mobile_Handset_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24946E1F2502B3BA00D6FE77 /* Mobile Handset App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24946E4A2502B3BE00D6FE77 /* Build configuration list for PBXNativeTarget "Mobile Handset App" */;
+			buildPhases = (
+				A9FEAE208E3A433B6D6660DE /* [CP] Check Pods Manifest.lock */,
+				24946E1C2502B3BA00D6FE77 /* Sources */,
+				24946E1D2502B3BA00D6FE77 /* Frameworks */,
+				24946E1E2502B3BA00D6FE77 /* Resources */,
+				316D33EC0E2FC9E9022DFC10 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile Handset App";
+			productName = "Mobile Handset App";
+			productReference = 24946E202502B3BA00D6FE77 /* Mobile Handset App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24946E352502B3BE00D6FE77 /* Mobile Handset AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24946E4D2502B3BE00D6FE77 /* Build configuration list for PBXNativeTarget "Mobile Handset AppTests" */;
+			buildPhases = (
+				406DCC228A2B53C2EA626C8E /* [CP] Check Pods Manifest.lock */,
+				24946E322502B3BE00D6FE77 /* Sources */,
+				24946E332502B3BE00D6FE77 /* Frameworks */,
+				24946E342502B3BE00D6FE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24946E382502B3BE00D6FE77 /* PBXTargetDependency */,
+			);
+			name = "Mobile Handset AppTests";
+			productName = "Mobile Handset AppTests";
+			productReference = 24946E362502B3BE00D6FE77 /* Mobile Handset AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24946E402502B3BE00D6FE77 /* Mobile Handset AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24946E502502B3BE00D6FE77 /* Build configuration list for PBXNativeTarget "Mobile Handset AppUITests" */;
+			buildPhases = (
+				1A9F0451BF4413A60D974F2B /* [CP] Check Pods Manifest.lock */,
+				24946E3D2502B3BE00D6FE77 /* Sources */,
+				24946E3E2502B3BE00D6FE77 /* Frameworks */,
+				24946E3F2502B3BE00D6FE77 /* Resources */,
+				1B7EE55C7844A05376D71F89 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24946E432502B3BE00D6FE77 /* PBXTargetDependency */,
+			);
+			name = "Mobile Handset AppUITests";
+			productName = "Mobile Handset AppUITests";
+			productReference = 24946E412502B3BE00D6FE77 /* Mobile Handset AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24946E182502B3BA00D6FE77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Asad Choudhary";
+				TargetAttributes = {
+					24946E1F2502B3BA00D6FE77 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					24946E352502B3BE00D6FE77 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 24946E1F2502B3BA00D6FE77;
+					};
+					24946E402502B3BE00D6FE77 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 24946E1F2502B3BA00D6FE77;
+					};
+				};
+			};
+			buildConfigurationList = 24946E1B2502B3BA00D6FE77 /* Build configuration list for PBXProject "Mobile Handset App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24946E172502B3BA00D6FE77;
+			productRefGroup = 24946E212502B3BA00D6FE77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24946E1F2502B3BA00D6FE77 /* Mobile Handset App */,
+				24946E352502B3BE00D6FE77 /* Mobile Handset AppTests */,
+				24946E402502B3BE00D6FE77 /* Mobile Handset AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24946E1E2502B3BA00D6FE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24946E302502B3BD00D6FE77 /* LaunchScreen.storyboard in Resources */,
+				24946E2D2502B3BD00D6FE77 /* Assets.xcassets in Resources */,
+				24946E2B2502B3BA00D6FE77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24946E342502B3BE00D6FE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24946E3F2502B3BE00D6FE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A9F0451BF4413A60D974F2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobile Handset App-Mobile Handset AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B7EE55C7844A05376D71F89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobile Handset App-Mobile Handset AppUITests/Pods-Mobile Handset App-Mobile Handset AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobile Handset App-Mobile Handset AppUITests/Pods-Mobile Handset App-Mobile Handset AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobile Handset App-Mobile Handset AppUITests/Pods-Mobile Handset App-Mobile Handset AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		316D33EC0E2FC9E9022DFC10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobile Handset App/Pods-Mobile Handset App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobile Handset App/Pods-Mobile Handset App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobile Handset App/Pods-Mobile Handset App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		406DCC228A2B53C2EA626C8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobile Handset AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9FEAE208E3A433B6D6660DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobile Handset App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24946E1C2502B3BA00D6FE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24946E282502B3BA00D6FE77 /* HomeViewController.swift in Sources */,
+				24946E5D2502B4C700D6FE77 /* ErrorResult.swift in Sources */,
+				24946E5F2502B54000D6FE77 /* RequestHandler.swift in Sources */,
+				24946E6325057CA900D6FE77 /* HomeViewModel.swift in Sources */,
+				24946E242502B3BA00D6FE77 /* AppDelegate.swift in Sources */,
+				24946E612503F73800D6FE77 /* MobilesListViewController.swift in Sources */,
+				24946E5A2502B4A400D6FE77 /* Result.swift in Sources */,
+				24946E262502B3BA00D6FE77 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24946E322502B3BE00D6FE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24946E3B2502B3BE00D6FE77 /* Mobile_Handset_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24946E3D2502B3BE00D6FE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24946E462502B3BE00D6FE77 /* Mobile_Handset_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24946E382502B3BE00D6FE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24946E1F2502B3BA00D6FE77 /* Mobile Handset App */;
+			targetProxy = 24946E372502B3BE00D6FE77 /* PBXContainerItemProxy */;
+		};
+		24946E432502B3BE00D6FE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24946E1F2502B3BA00D6FE77 /* Mobile Handset App */;
+			targetProxy = 24946E422502B3BE00D6FE77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24946E292502B3BA00D6FE77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24946E2A2502B3BA00D6FE77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24946E2E2502B3BD00D6FE77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24946E2F2502B3BD00D6FE77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24946E482502B3BE00D6FE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24946E492502B3BE00D6FE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24946E4B2502B3BE00D6FE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A663365FFD822045CF54FA0B /* Pods-Mobile Handset App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHV92F7FKS;
+				INFOPLIST_FILE = "Mobile Handset App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobile-Handset-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24946E4C2502B3BE00D6FE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB1C4E72EA0578E96A282A5 /* Pods-Mobile Handset App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHV92F7FKS;
+				INFOPLIST_FILE = "Mobile Handset App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobile-Handset-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24946E4E2502B3BE00D6FE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D632F499F8FC63543F4514E /* Pods-Mobile Handset AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHV92F7FKS;
+				INFOPLIST_FILE = "Mobile Handset AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobile-Handset-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Handset App.app/Mobile Handset App";
+			};
+			name = Debug;
+		};
+		24946E4F2502B3BE00D6FE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311CB3E2C58A960DDE522701 /* Pods-Mobile Handset AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHV92F7FKS;
+				INFOPLIST_FILE = "Mobile Handset AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobile-Handset-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Handset App.app/Mobile Handset App";
+			};
+			name = Release;
+		};
+		24946E512502B3BE00D6FE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D94B96A0D794E9E1CFFC9D /* Pods-Mobile Handset App-Mobile Handset AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHV92F7FKS;
+				INFOPLIST_FILE = "Mobile Handset AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobile-Handset-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobile Handset App";
+			};
+			name = Debug;
+		};
+		24946E522502B3BE00D6FE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26BD7AC4364974B0C7EF2E5 /* Pods-Mobile Handset App-Mobile Handset AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHV92F7FKS;
+				INFOPLIST_FILE = "Mobile Handset AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobile-Handset-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobile Handset App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24946E1B2502B3BA00D6FE77 /* Build configuration list for PBXProject "Mobile Handset App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24946E482502B3BE00D6FE77 /* Debug */,
+				24946E492502B3BE00D6FE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24946E4A2502B3BE00D6FE77 /* Build configuration list for PBXNativeTarget "Mobile Handset App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24946E4B2502B3BE00D6FE77 /* Debug */,
+				24946E4C2502B3BE00D6FE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24946E4D2502B3BE00D6FE77 /* Build configuration list for PBXNativeTarget "Mobile Handset AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24946E4E2502B3BE00D6FE77 /* Debug */,
+				24946E4F2502B3BE00D6FE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24946E502502B3BE00D6FE77 /* Build configuration list for PBXNativeTarget "Mobile Handset AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24946E512502B3BE00D6FE77 /* Debug */,
+				24946E522502B3BE00D6FE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24946E182502B3BA00D6FE77 /* Project object */;
+}
