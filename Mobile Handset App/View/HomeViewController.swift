@@ -15,8 +15,8 @@ class HomeViewController: ButtonBarPagerTabStripViewController {
 
     var dataSource: MobilesListDataSource?
     
-    lazy var viewModel : MobilesListViewModel = {
-        let viewModel = MobilesListViewModel(dataSource: dataSource)
+    lazy var viewModel : HomeViewModel = {
+        let viewModel = HomeViewModel(dataSource: dataSource)
         return viewModel
     }()
         
@@ -53,7 +53,7 @@ class HomeViewController: ButtonBarPagerTabStripViewController {
     }
     
     func loadContent() {
-        self.viewModel.fetchCars()
+        self.viewModel.fetchMobiles()
     }
 
     // Related to Pages

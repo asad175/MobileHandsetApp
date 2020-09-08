@@ -21,6 +21,10 @@
 		24946E5F2502B54000D6FE77 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E5E2502B54000D6FE77 /* RequestHandler.swift */; };
 		24946E612503F73800D6FE77 /* MobilesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E602503F73800D6FE77 /* MobilesListViewController.swift */; };
 		24946E6325057CA900D6FE77 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E6225057CA900D6FE77 /* HomeViewModel.swift */; };
+		24946E65250815CB00D6FE77 /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E64250815CB00D6FE77 /* GenericDataSource.swift */; };
+		24946E672508160A00D6FE77 /* MobilesListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E662508160A00D6FE77 /* MobilesListDataSource.swift */; };
+		24946E6925081C1400D6FE77 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E6825081C1400D6FE77 /* DynamicValue.swift */; };
+		24946E6B25081CAA00D6FE77 /* MobileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24946E6A25081CAA00D6FE77 /* MobileCollectionViewCell.swift */; };
 		A627224B6D6C272CEC0F3681 /* Pods_Mobile_Handset_App_Mobile_Handset_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FCC5F35ED633FAE5E6BEEF /* Pods_Mobile_Handset_App_Mobile_Handset_AppUITests.framework */; };
 		F289B2BA88ADD99BB29C34AB /* Pods_Mobile_Handset_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CEDC46B6F42C02BA8B1EC8 /* Pods_Mobile_Handset_App.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +67,10 @@
 		24946E5E2502B54000D6FE77 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 		24946E602503F73800D6FE77 /* MobilesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilesListViewController.swift; sourceTree = "<group>"; };
 		24946E6225057CA900D6FE77 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		24946E64250815CB00D6FE77 /* GenericDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataSource.swift; sourceTree = "<group>"; };
+		24946E662508160A00D6FE77 /* MobilesListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilesListDataSource.swift; sourceTree = "<group>"; };
+		24946E6825081C1400D6FE77 /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		24946E6A25081CAA00D6FE77 /* MobileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCollectionViewCell.swift; sourceTree = "<group>"; };
 		30FCC5F35ED633FAE5E6BEEF /* Pods_Mobile_Handset_App_Mobile_Handset_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Handset_App_Mobile_Handset_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		311CB3E2C58A960DDE522701 /* Pods-Mobile Handset AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Handset AppTests.release.xcconfig"; path = "Target Support Files/Pods-Mobile Handset AppTests/Pods-Mobile Handset AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		4BB1C4E72EA0578E96A282A5 /* Pods-Mobile Handset App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Handset App.release.xcconfig"; path = "Target Support Files/Pods-Mobile Handset App/Pods-Mobile Handset App.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +172,7 @@
 			children = (
 				24946E272502B3BA00D6FE77 /* HomeViewController.swift */,
 				24946E602503F73800D6FE77 /* MobilesListViewController.swift */,
+				24946E6A25081CAA00D6FE77 /* MobileCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				24946E6225057CA900D6FE77 /* HomeViewModel.swift */,
+				24946E64250815CB00D6FE77 /* GenericDataSource.swift */,
+				24946E662508160A00D6FE77 /* MobilesListDataSource.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -179,6 +190,7 @@
 		24946E552502B45700D6FE77 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				24946E6825081C1400D6FE77 /* DynamicValue.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -470,14 +482,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24946E6B25081CAA00D6FE77 /* MobileCollectionViewCell.swift in Sources */,
 				24946E282502B3BA00D6FE77 /* HomeViewController.swift in Sources */,
+				24946E6925081C1400D6FE77 /* DynamicValue.swift in Sources */,
 				24946E5D2502B4C700D6FE77 /* ErrorResult.swift in Sources */,
 				24946E5F2502B54000D6FE77 /* RequestHandler.swift in Sources */,
 				24946E6325057CA900D6FE77 /* HomeViewModel.swift in Sources */,
+				24946E672508160A00D6FE77 /* MobilesListDataSource.swift in Sources */,
 				24946E242502B3BA00D6FE77 /* AppDelegate.swift in Sources */,
 				24946E612503F73800D6FE77 /* MobilesListViewController.swift in Sources */,
 				24946E5A2502B4A400D6FE77 /* Result.swift in Sources */,
 				24946E262502B3BA00D6FE77 /* SceneDelegate.swift in Sources */,
+				24946E65250815CB00D6FE77 /* GenericDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
